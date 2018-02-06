@@ -1,0 +1,16 @@
+.grid {
+	-fx-grid-lines-visible: true;
+	-fx-alignment: top-center;
+}
+.label {
+	-fx-pref-height: 35px;
+	-fx-pref-width: 150px;
+	-fx-alignment: center;
+}
+.menu {
+	-fx-pref-height: 25px;
+	-fx-pref-width: 45px;
+	}
+.file {
+	-fx-text-alignment: left;
+}

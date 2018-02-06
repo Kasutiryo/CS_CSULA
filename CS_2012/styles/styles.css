@@ -1,0 +1,32 @@
+.gridpane {
+	-fx-font-size: 125%;
+	-fx-padding: 30px 30px 30px 30px;
+	-fx-grid-lines-visible: true;
+}
+.label{
+	-fx-pref-height: 35px;
+	-fx-pref-width: 35px;
+	-fx-alignment: center;
+	-fx-label-padding: 3px;
+}
+.startLabel .text{
+	-fx-background-color: red;
+	-fx-fill: lightseagreen;
+    -fx-stroke: firebrick;
+    -fx-stroke-width: 2px;
+}
+.endLabel .text{
+	-fx-background-color: red;
+	-fx-fill: lightseagreen;
+    -fx-stroke: firebrick;
+    -fx-stroke-width: 2px;
+}
+.wallLabel {
+	-fx-background-color: grey;	
+}
+.spaceLabel {
+	-fx-background-color: tan;
+}
+.runButton {
+	-fx-alignment: center;
+}

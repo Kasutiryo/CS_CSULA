@@ -1,0 +1,44 @@
+.gridpane{
+	-fx-font-size: 125%;
+	-fx-padding: 0px 30px 0px 30px;
+	-fx-grid-lines-visible: true;
+}
+.gridpaneT{
+	-fx-font-size: 125%;
+	-fx-padding: 30px 30px 0px 30px;
+}
+.gridpaneB{
+	-fx-font-size: 125%;
+	-fx-padding: 0px 30px 30px 30px;
+}
+
+.borderpane{
+	-fx-font-size: 200%;
+	-fx-grid-lines-visible: true;
+}
+
+.clickedLabel{	
+	-fx-background-color: #00FFFF;	
+}
+
+.clickedBox{
+	-fx-alignment: center;
+}
+.label{
+  	-fx-label-padding: 3px 10px 3px 10px;
+  	-fx-content-display: center;
+  	-fx-text-alignment: center;
+}
+.wall{
+	-fx-label-padding: 3px 10px 3px 10px;
+  	-fx-content-display: center;
+  	-fx-text-alignment: center;
+	-fx-background-color: blue;
+}
+.blank{
+  	-fx-label-padding: 3px 10px 3px 10px;
+  	-fx-content-display: center;
+  	-fx-text-alignment: center;
+	-fx-background-color: black;
+}
+
