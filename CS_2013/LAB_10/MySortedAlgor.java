@@ -69,7 +69,7 @@ public class MySortedAlgor<E extends Comparable<E>> {
 
 		algo.insertionSort(list);
 		//algo.selectionSort(list, list.length);
-		//algo.mergeSort(list);
+		//algo.mergeSort(list); 
 
 		for (Integer item: list) {
 			System.out.print(item + ", "); 
