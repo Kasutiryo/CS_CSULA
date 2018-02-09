@@ -4,12 +4,7 @@
 	<classpathentry kind="src" path="CS_2011"/>
 	<classpathentry kind="src" path="CS_2012"/>
 	<classpathentry kind="src" path="CS_2013"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/enriq/Desktop/Enriq/Downloads/sourcecode.jar">
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
