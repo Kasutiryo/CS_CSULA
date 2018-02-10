@@ -36,6 +36,8 @@ public class maxSub {
      * @param low Data calculated by helper method.
      * @param mid Data calculated by helper method.
      * @param high Data calculated by helper method.
+     * @return Returns a Integer[] array of size three, in which contains the Left Max Array, Right Max Array, and the Cross Sum
+     * respectively. 
      */
     public Integer[] findMax(Integer[] diff, int low, int mid, int high) {
     	
@@ -60,6 +62,12 @@ public class maxSub {
         return new Integer[] {maxLeft, maxRight, (leftSum + rightSum)};
     }
     
+    /**
+     * Helper Method. Takes in the raw data and calculates the differences at a running time
+     * of O(n). Please note that the original data must be contain the starting price as the first
+     * element of the data[] array.
+     * @param data Raw data you'd like to use to calculate the Max Crossing Sub-Array.
+     */
     public void findMaxRecursive(Integer[] data) {
     	
     	Integer[] differences= new Integer[data.length - 1];
@@ -73,6 +81,14 @@ public class maxSub {
     	}
     }
     
+    /**
+     * Recursively finds the Max Crossing Sub-Array at a running time of O(Log n) for a total
+     * of O(n Log n).
+     * @param arr Provided through helper method.
+     * @param high Provided through helper method.
+     * @param low Provided through helper method.
+     * @return
+     */
     public Integer[] findMaxRecursive(Integer[] arr, int high, int low) {
     	
     	if (high == low) {
