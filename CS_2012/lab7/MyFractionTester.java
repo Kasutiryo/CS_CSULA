@@ -1,4 +1,4 @@
-package lab7;
+/*package lab7;
 
 import static org.junit.Assert.*;
 
@@ -183,3 +183,4 @@ public class MyFractionTester {
 		assertEquals(new MyFraction(3, 50, '+'), test.multiply(test2));
 	}
 }
+*/
